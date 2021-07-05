@@ -1,0 +1,21 @@
+{
+  "name": "my_app",
+  "version": "1.0.0",
+  "description": "My app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server/index.js"
+  },
+  "author": "Khushi Gupta",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "fuse.js": "^6.4.6",
+    "mysql2": "^2.2.5",
+    "mysql3": "^0.5.14",
+    "sequelize": "^6.6.4"
+  }
+}
